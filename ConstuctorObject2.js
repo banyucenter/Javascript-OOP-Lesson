@@ -10,7 +10,7 @@ function Mahasiswa(nim, nama, kelas, umur, semester, matakuliah) {
     this.matakuliah = matakuliah
 
     //method
-    this.profilmahasiswa = function () {
+    this.profilmahasiswa = () => {
         console.log(
             'Nim: ' +
             this.profil.nim + ' ' +
