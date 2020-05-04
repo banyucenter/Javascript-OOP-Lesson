@@ -16,7 +16,6 @@ class Buah {
     return jumlah * this.hargaperkilo
   }
 
-
 };
 
 apel = new Buah("Apel", "Manis", "Merah")
